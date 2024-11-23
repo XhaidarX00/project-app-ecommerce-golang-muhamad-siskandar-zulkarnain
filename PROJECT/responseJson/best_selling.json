@@ -1,0 +1,15 @@
+// best selling
+
+// best selling
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}

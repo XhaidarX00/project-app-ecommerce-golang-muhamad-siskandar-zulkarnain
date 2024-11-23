@@ -1,0 +1,5 @@
+{"L":"INFO","T":"2024-11-23T21:26:54.305+0700","M":"server started on http://localhost:8080"}
+{"L":"ERROR","T":"2024-11-23T21:27:24.442+0700","M":"Error LoginRepo","error":"sql: no rows in result set"}
+{"L":"ERROR","T":"2024-11-23T21:27:24.442+0700","M":"Error AllService :","error":"sql: no rows in result set"}
+{"L":"INFO","T":"2024-11-23T21:27:24.442+0700","M":"http request","url":"/login","duration":"2.4022ms"}
+{"L":"INFO","T":"2024-11-23T21:27:30.804+0700","M":"http request","url":"/login","duration":"704.6µs"}

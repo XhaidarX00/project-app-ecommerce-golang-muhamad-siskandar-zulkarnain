@@ -1,0 +1,6 @@
+// error section
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}

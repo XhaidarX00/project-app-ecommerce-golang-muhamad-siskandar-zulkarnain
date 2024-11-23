@@ -1,0 +1,77 @@
+// checkout flow
+
+// detail product
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}
+
+
+// related item
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}
+
+
+// cart 
+
+// cart
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}
+
+
+// billing details
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}
+
+
+// order succes
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}

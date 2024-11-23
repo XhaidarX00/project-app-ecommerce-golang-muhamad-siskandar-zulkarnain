@@ -1,0 +1,15 @@
+// wishlist
+
+// wishlist 
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}

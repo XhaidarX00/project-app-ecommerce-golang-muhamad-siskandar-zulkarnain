@@ -1,0 +1,45 @@
+// about page
+
+// our story
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}
+
+
+// activities
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}
+
+
+// teams
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}

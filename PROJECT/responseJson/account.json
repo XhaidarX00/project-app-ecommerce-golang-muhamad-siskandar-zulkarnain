@@ -1,0 +1,77 @@
+// account sections
+
+// Account page
+
+// my profile
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}
+
+
+// address book
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}
+
+// list addres book
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}
+
+
+// update address book
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}
+
+
+
+// my order
+{
+    "Status": true,
+    "Message": "message",
+    "Data": {}
+}
+
+// error
+{
+    "Status": false,
+    "Message": "message",
+    "Data": {}
+}
