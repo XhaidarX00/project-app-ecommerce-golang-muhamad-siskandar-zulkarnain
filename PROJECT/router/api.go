@@ -41,15 +41,15 @@ func Routes(r *chi.Mux, h *handler.Handler, m *middleware.Middleware) {
 	r.With(m.MinddlewareLogger).Route("/", func(r chi.Router) {
 		r.Post("/login", h.LoginHandler)
 		r.Post("/register", h.RegisterHandler)
+		r.Get("/banner", h.BannerHandler)
+		r.Get("/categories", h.GetCategoryHandler)
+		r.Get("/best-selling", h.GetBestSellingHandler)
+		r.Get("/promo-weekly", h.GetPromoWeeklyHandler)
+		r.Get("/list-product", h.GetAllProductHandler)
+		r.Get("/list-recomment", h.GetRecomentProductHandler)
+		r.Get("/page-products", h.GetAllPageProductHandler)
 
 		r.With(m.TokenMiddleware).Route("/api", func(r chi.Router) {
-			r.Get("/banner", h.BannerHandler)
-			r.Get("/categories", h.GetCategoryHandler)
-			r.Get("/best-selling", h.GetBestSellingHandler)
-			r.Get("/promo-weekly", h.GetPromoWeeklyHandler)
-			r.Get("/list-product", h.GetAllProductHandler)
-			r.Get("/list-recomment", h.GetRecomentProductHandler)
-			r.Get("/page-products", h.GetAllPageProductHandler)
 			r.Get("/product-detail", h.GetDetailHandler)
 			r.Get("/list-cart", h.GetListCartHandler)
 			r.Get("/customer-address", h.GetListAddressHandler)

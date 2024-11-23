@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Haidar1\",\r\n    \"password\": \"pass123\",\r\n    \"phone_number\": \"087774247633\"\r\n}",
+							"raw": "{\r\n    \"name\": \"Haidar2\",\r\n    \"password\": \"pass123\",\r\n    \"phone_number\": \"0877742476333\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -86,13 +86,7 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": [
-							{
-								"key": "token",
-								"value": "{{token}}",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"body": {
 							"mode": "raw",
 							"raw": "",
@@ -103,12 +97,11 @@
 							}
 						},
 						"url": {
-							"raw": "{{base_url}}/api/banner",
+							"raw": "{{base_url}}/banner",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"api",
 								"banner"
 							]
 						}
@@ -119,20 +112,13 @@
 					"name": "Categories",
 					"request": {
 						"method": "GET",
-						"header": [
-							{
-								"key": "token",
-								"value": "{{token}}",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/categories",
+							"raw": "{{base_url}}/categories",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"api",
 								"categories"
 							]
 						}
@@ -143,20 +129,13 @@
 					"name": "Best Selling",
 					"request": {
 						"method": "GET",
-						"header": [
-							{
-								"key": "token",
-								"value": "{{token}}",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/best-selling?limit=4&page=1",
+							"raw": "{{base_url}}/best-selling?limit=4&page=1",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"api",
 								"best-selling"
 							],
 							"query": [
@@ -185,12 +164,11 @@
 							}
 						],
 						"url": {
-							"raw": "{{base_url}}/api/list-product?limit=8&page=1",
+							"raw": "{{base_url}}/list-product?limit=8&page=1",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"api",
 								"list-product"
 							],
 							"query": [
@@ -211,20 +189,13 @@
 					"name": "Recoment",
 					"request": {
 						"method": "GET",
-						"header": [
-							{
-								"key": "token",
-								"value": "{{token}}",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/list-recomment",
+							"raw": "{{base_url}}/list-recomment",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"api",
 								"list-recomment"
 							]
 						}
@@ -235,20 +206,13 @@
 					"name": "Promo Weekly",
 					"request": {
 						"method": "GET",
-						"header": [
-							{
-								"key": "token",
-								"value": "{{token}}",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/promo-weekly",
+							"raw": "{{base_url}}/promo-weekly",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"api",
 								"promo-weekly"
 							]
 						}
@@ -264,20 +228,13 @@
 					"name": "List Product",
 					"request": {
 						"method": "GET",
-						"header": [
-							{
-								"key": "token",
-								"value": "{{token}}",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/page-products?limit=4&page=1",
+							"raw": "{{base_url}}/page-products?limit=4&page=1",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"api",
 								"page-products"
 							],
 							"query": [

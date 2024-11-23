@@ -1,5 +1,9 @@
-{"L":"INFO","T":"2024-11-23T21:26:54.305+0700","M":"server started on http://localhost:8080"}
-{"L":"ERROR","T":"2024-11-23T21:27:24.442+0700","M":"Error LoginRepo","error":"sql: no rows in result set"}
-{"L":"ERROR","T":"2024-11-23T21:27:24.442+0700","M":"Error AllService :","error":"sql: no rows in result set"}
-{"L":"INFO","T":"2024-11-23T21:27:24.442+0700","M":"http request","url":"/login","duration":"2.4022ms"}
-{"L":"INFO","T":"2024-11-23T21:27:30.804+0700","M":"http request","url":"/login","duration":"704.6µs"}
+{"L":"INFO","T":"2024-11-24T00:01:26.832+0700","M":"server started on http://localhost:8080"}
+{"L":"INFO","T":"2024-11-24T00:01:34.129+0700","M":"http request","url":"/best-selling?limit=4&page=1","duration":"32.0764ms"}
+{"L":"INFO","T":"2024-11-24T00:02:04.894+0700","M":"http request","url":"/list-product?limit=8&page=1","duration":"1.8794ms"}
+{"L":"INFO","T":"2024-11-24T00:02:23.178+0700","M":"http request","url":"/list-recomment","duration":"4.0309ms"}
+{"L":"INFO","T":"2024-11-24T00:02:35.641+0700","M":"http request","url":"/promo-weekly","duration":"2.3374ms"}
+{"L":"INFO","T":"2024-11-24T00:02:39.339+0700","M":"http request","url":"/promo-weekly","duration":"634.3µs"}
+{"L":"INFO","T":"2024-11-24T00:02:58.806+0700","M":"http request","url":"/page-products?limit=4&page=1","duration":"1.4653ms"}
+{"L":"INFO","T":"2024-11-24T00:03:00.995+0700","M":"http request","url":"/page-products?limit=4&page=1","duration":"1.7874ms"}
+{"L":"INFO","T":"2024-11-24T00:03:09.285+0700","M":"http request","url":"/page-products?limit=4&page=1","duration":"970µs"}
